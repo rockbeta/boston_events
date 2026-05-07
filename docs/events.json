@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:30:18.270112+00:00",
+  "generated_at": "2026-05-07T14:36:38.370761+00:00",
   "count": 7,
   "events": [
     {
@@ -8,8 +8,8 @@
       "location": "103 CityPoint, 300 Fifth Avenue, Waltham, MA 02451",
       "url": "https://www.mass.gov/event/carroll-center-for-the-blind-waltham-lions-carnival-05-07-2026",
       "source": "Mass.gov",
-      "description": "See source for details on “Carroll Center for the Blind: Waltham Lions Carnival”.",
-      "audience": "General public",
+      "description": "Join us for a special afternoon at the Waltham Lions Carnival, reserved exclusively for children with vision, learning, and sensory needs and their families. Enjoy rides, fun activities, and time to connect with fellow Carroll Center families. RSVP before May 1 by emailing Barbara Duffy at barbara.duffy@c​arroll.org",
+      "audience": "Kids 6-12",
       "end": null,
       "id": "92347daedbe221c6"
     },
@@ -63,8 +63,8 @@
       "location": "Carroll Center for the Blind, 770 Centre Street, Newton, MA 02458",
       "url": "https://www.mass.gov/event/carroll-center-for-the-blind-information-day-06-02-2026",
       "source": "Mass.gov",
-      "description": "See source for details on “Carroll Center for the Blind: Information Day”.",
-      "audience": "General public",
+      "description": "Visit the Carroll Center's beautiful campus, learn about the wide range of comprehensive programs for individuals of all ages, and meet the dedicated team of expert, caring professionals",
+      "audience": "Families",
       "end": null,
       "id": "c0062ab0fcf87653"
     },
