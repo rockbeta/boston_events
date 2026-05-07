@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-05-07T14:29:31.162530+00:00",
-  "count": 5,
+  "generated_at": "2026-05-07T14:30:18.270112+00:00",
+  "count": 7,
   "events": [
+    {
+      "name": "Carroll Center for the Blind: Waltham Lions Carnival",
+      "start": "2026-05-07T00:00:00+00:00",
+      "location": "103 CityPoint, 300 Fifth Avenue, Waltham, MA 02451",
+      "url": "https://www.mass.gov/event/carroll-center-for-the-blind-waltham-lions-carnival-05-07-2026",
+      "source": "Mass.gov",
+      "description": "See source for details on “Carroll Center for the Blind: Waltham Lions Carnival”.",
+      "audience": "General public",
+      "end": null,
+      "id": "92347daedbe221c6"
+    },
     {
       "name": "Latino Professional Mixer 2026",
       "start": "2026-05-07T00:00:00+00:00",
@@ -45,6 +56,17 @@
       "audience": "Adults",
       "end": null,
       "id": "18f39f42e313b84f"
+    },
+    {
+      "name": "Carroll Center for the Blind: Information Day",
+      "start": "2026-06-02T00:00:00+00:00",
+      "location": "Carroll Center for the Blind, 770 Centre Street, Newton, MA 02458",
+      "url": "https://www.mass.gov/event/carroll-center-for-the-blind-information-day-06-02-2026",
+      "source": "Mass.gov",
+      "description": "See source for details on “Carroll Center for the Blind: Information Day”.",
+      "audience": "General public",
+      "end": null,
+      "id": "c0062ab0fcf87653"
     },
     {
       "name": "ICP Graduation Concert",
