@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-05-07T13:34:42.413125+00:00",
+  "count": 6,
+  "events": [
+    {
+      "name": "Latino Professional Mixer 2026",
+      "start": "2026-05-07T00:00:00+00:00",
+      "location": "Courtyard by Marriott Boston Downtown",
+      "url": "https://www.eventbrite.com/e/latino-professional-mixer-2026-tickets-1981877024531",
+      "source": "Eventbrite",
+      "description": "This networking event gathers more than 300 prominent leaders from the private and public sector.",
+      "audience": "All ages",
+      "end": null,
+      "id": "3e5228b2a6026c7f"
+    },
+    {
+      "name": "Jazz Night @ Long Live Roxbury",
+      "start": "2026-05-07T00:00:00+00:00",
+      "location": "Long Live Roxbury, Hampden Street, Boston, MA, USA",
+      "url": "https://www.eventbrite.com/e/jazz-night-long-live-roxbury-tickets-1975993585005",
+      "source": "Eventbrite",
+      "description": "Join us for Thursday Jazz Nights! Every Thursday as we celebrate Boston’s vibrant music scene!",
+      "audience": "All ages",
+      "end": null,
+      "id": "4195439359a89c00"
+    },
+    {
+      "name": "Hinge Quartet in Concert",
+      "start": "2026-05-15T00:00:00+00:00",
+      "location": "First Parish in Brookline",
+      "url": "https://www.eventbrite.com/e/hinge-quartet-in-concert-tickets-1750891556779",
+      "source": "Eventbrite",
+      "description": "Music by Björk, Elliott Miles McKinley, Lansing McLoskey, Lucy McKnight, and Laura Schwendinger",
+      "audience": "All ages",
+      "end": null,
+      "id": "4ea1979b64c073fe"
+    },
+    {
+      "name": "send an email",
+      "start": "2026-05-20T00:00:00+00:00",
+      "location": "Boston, MA",
+      "url": "mailto:emily.patrick@boston.gov",
+      "source": "Boston.gov",
+      "description": "10:00am-11:30am Your Team Matters Workshop Series: Resume Writing Training Virtual Event Boston , MA United States send an email Price: FREE Part of the Office of Small Business' \"Your Team Matters Workshop Series\" led by Amaru during Small Business Month in May 2026. Event website for",
+      "audience": "Job seekers",
+      "end": null,
+      "id": "73f5789b05fa7bcf"
+    },
+    {
+      "name": "Artist Talk with Rania Matar",
+      "start": "2026-05-20T00:00:00+00:00",
+      "location": "Leica Store & Gallery Boston",
+      "url": "https://www.eventbrite.com/e/artist-talk-with-rania-matar-tickets-1983636668674",
+      "source": "Eventbrite",
+      "description": "Join us for a conversation with Rania Matar about her project and new exhibition Where Do I Go? لوين روح",
+      "audience": "All ages",
+      "end": null,
+      "id": "18f39f42e313b84f"
+    },
+    {
+      "name": "ICP Graduation Concert",
+      "start": "2026-06-06T00:00:00+00:00",
+      "location": "Boston Youth Symphony Orchestras",
+      "url": "https://www.eventbrite.com/e/icp-graduation-concert-tickets-1571983217119",
+      "source": "Eventbrite",
+      "description": "BYSO's Intensive Community Program Graduation Concert",
+      "audience": "All ages",
+      "end": null,
+      "id": "e7ccc128b684fc29"
+    }
+  ]
+}
