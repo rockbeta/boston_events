@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T13:34:42.413125+00:00",
+  "generated_at": "2026-05-07T13:45:42.547311+00:00",
   "count": 6,
   "events": [
     {
@@ -8,8 +8,8 @@
       "location": "Courtyard by Marriott Boston Downtown",
       "url": "https://www.eventbrite.com/e/latino-professional-mixer-2026-tickets-1981877024531",
       "source": "Eventbrite",
-      "description": "This networking event gathers more than 300 prominent leaders from the private and public sector.",
-      "audience": "All ages",
+      "description": "A networking event for over 300 leaders from the private and public sectors.",
+      "audience": "Latino professionals",
       "end": null,
       "id": "3e5228b2a6026c7f"
     },
