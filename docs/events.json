@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-07T14:36:38.370761+00:00",
-  "count": 7,
+  "generated_at": "2026-05-07T14:43:07.112745+00:00",
+  "count": 32,
   "events": [
     {
       "name": "Carroll Center for the Blind: Waltham Lions Carnival",
@@ -36,6 +36,237 @@
       "id": "4195439359a89c00"
     },
     {
+      "name": "Spring into Writing with Writing Together Online (Challenge 2)",
+      "start": "2026-05-07T09:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/copy-of-build-up-healthy-writing-habits-with-writing-together-online-challenge-1-2002",
+      "source": "MIT Events",
+      "description": "Writing Together Online offers structured time to help you spring into writing and stay focused this semester. We hold writing sessions every weekday, Monday through Friday. Join our daily writing sessions and become part of a community of scholars who connect online, set realistic goals, and write together in the spirit of accountability and camaraderie. The program is open to all MIT students, postdocs, faculty, staff, and affiliates who are working on papers, proposals, thesis/dissertation chapters, application materials, and other writing projects. Please register for any number of sessions: Mondays, Wednesdays, and Fridays, 9:00–10:30am Tuesdays and Thursdays 9:00-10:00am and 10:00-11:00am…",
+      "audience": "General public",
+      "end": "2026-05-07T10:00:00-04:00",
+      "id": "483a826685bf0544"
+    },
+    {
+      "name": "AHA Seminar Series: Krzysztof Gajos | Exploring the Design Space of Success Criteria for AI-powered Decision Support Technologies",
+      "start": "2026-05-07T16:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://www.media.mit.edu/events/aha-seminar-krzysztof-gajos/",
+      "source": "MIT Events",
+      "description": "Join us for our online seminar series event hosted by MIT Media Lab's Advancing Humans with AI (AHA) research program. This event features Krzysztof Gajos, the Yahn W. Bernier and N. Elizabeth McCaw professor of Computer Science at the Harvard Paulson School of Engineering and Applied Sciences. Talks are all recorded and made available afterwards on YouTube, linked on each event webpage. Abstract For most of my career (working at the intersection of HCI and AI), I declared success when the systems I helped build allowed people to do more, faster, with fewer errors and with less friction. Recently, however…",
+      "audience": "Job seekers",
+      "end": "2026-05-07T17:00:00-04:00",
+      "id": "a70c55d6ab4a66c9"
+    },
+    {
+      "name": "Graduate Student Talk: Léa Miranda",
+      "start": "2026-05-07T17:30:00-04:00",
+      "location": "MIT List Visual Arts Center, 20 Ames Street, Building E15, Cambridge, MA 02139",
+      "url": "https://listart.mit.edu/calendar/graduate-student-talk-lea-miranda",
+      "source": "MIT Events",
+      "description": "Join Léa Miranda, a PhD student in the MIT History, Theory + Criticism of Art and Architecture program for a conversation around Performing Conditions: Artistic Labor and Dependency as Form. In this talk, Léa Miranda will discuss the relationships between property, labor, capital, and artistic production which have long influenced the history of art, through the specific example of photography. She will engage with Sophia Giovannitti's work on contractual structures to explore possible ways in which the commodifying regime of visual experiences can be broken down. In light of this, she will discuss how we—artists, patrons, historians, and viewers—can negotiate…",
+      "audience": "Teens 13-17",
+      "end": "2026-05-07T18:00:00-04:00",
+      "id": "a8294a5b4eeec38d"
+    },
+    {
+      "name": "Men's Heavyweight Crew vs. Jefferson Dad Vail Regatta",
+      "start": "2026-05-08T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=mcrewhvy",
+      "source": "MIT Events",
+      "description": "Time: TBA Location: Pennsauken, NJ / Cooper River",
+      "audience": "General public",
+      "end": null,
+      "id": "7526ca64bc7d991b"
+    },
+    {
+      "name": "Men's Tennis vs. NCAA DIII First Round",
+      "start": "2026-05-08T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=mten",
+      "source": "MIT Events",
+      "description": "Time: TBA Location: TBA",
+      "audience": "General public",
+      "end": null,
+      "id": "c1be8a0dc55cb64a"
+    },
+    {
+      "name": "Men's Track and Field vs. Williams F.I.R.E",
+      "start": "2026-05-08T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=mtrack",
+      "source": "MIT Events",
+      "description": "Time: Location: Williamstown, MA / Williams College",
+      "audience": "General public",
+      "end": null,
+      "id": "d498f6652ab39abd"
+    },
+    {
+      "name": "Women's Lightweight Crew vs. Jefferson Dad Vail Regatta",
+      "start": "2026-05-08T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=lightrowing",
+      "source": "MIT Events",
+      "description": "Time: TBA Location: Pennsauken, NJ / Cooper River",
+      "audience": "General public",
+      "end": null,
+      "id": "4aa65ffbe75e9fc4"
+    },
+    {
+      "name": "Women's Track and Field vs. Williams F.I.R.E.",
+      "start": "2026-05-08T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=wtrack",
+      "source": "MIT Events",
+      "description": "Time: Location: Williamstown, MA / Williams College",
+      "audience": "General public",
+      "end": null,
+      "id": "a609bf05689ac841"
+    },
+    {
+      "name": "10th MIT Global Humanities Forum on “Rethinking healing—from ancient wisdom to modern medicine” on May 8 (online)",
+      "start": "2026-05-08T10:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://comparativeglobalhumanities.mit.edu/10th-mit-global-humanities-forum-on-medicine-and-the-healing-arts-on-may-8-online/",
+      "source": "MIT Events",
+      "description": "Dear colleagues, students, and friends, Join us for the 2026 GHI 10th Forum! This session introduces the GHI Pillar Medicine & the Healing Arts, and its projects. 10th GHI Forum Title: Rethinking healing—from ancient wisdom to modern medicineDate: May 8, 2026, 10:00–11:30 AM ESTWhere: Online (Zoom Registration Link: LINK)Speakers: Ronit Yoeli-Tlalim, Michael Stanley-Baker, Joaquín Terrones 【Abstract】 What can history teach us about the big challenges faced by medicine in the world today? Our pillar is tapping into historically rooted medical knowledge as resources for new directions for enhancing both medical practice and public understanding of health and well-being. We examine…",
+      "audience": "General public",
+      "end": "2026-05-08T11:30:00-04:00",
+      "id": "ea208be659891924"
+    },
+    {
+      "name": "MIT Mobility Forum",
+      "start": "2026-05-08T12:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://www.mmi.mit.edu/forum",
+      "source": "MIT Events",
+      "description": "See source for details on “MIT Mobility Forum”.",
+      "audience": "General public",
+      "end": "2026-05-08T13:00:00-04:00",
+      "id": "892c23e9300d07b4"
+    },
+    {
+      "name": "Baseball vs. NCAA DIII Super Regionals",
+      "start": "2026-05-08T16:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=baseball",
+      "source": "MIT Events",
+      "description": "Time: TBA Location: TBA",
+      "audience": "General public",
+      "end": null,
+      "id": "450faad59622df30"
+    },
+    {
+      "name": "Softball vs. Worcester Polytechnic Institute",
+      "start": "2026-05-08T17:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=softball",
+      "source": "MIT Events",
+      "description": "Time: 4:00 PM Location: Worcester, MA",
+      "audience": "General public",
+      "end": null,
+      "id": "b672c4d94d032139"
+    },
+    {
+      "name": "Men's Lacrosse vs. Babson College",
+      "start": "2026-05-09T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=mlax",
+      "source": "MIT Events",
+      "description": "Time: 1:00 PM Location: Babson Park, MA",
+      "audience": "General public",
+      "end": null,
+      "id": "b385e352923c5260"
+    },
+    {
+      "name": "Women's Tennis vs. NCAA DIII Second Round",
+      "start": "2026-05-09T13:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=wten",
+      "source": "MIT Events",
+      "description": "Time: 12:00 PM (10:00 AM if indoors) Location: Cambridge, MA",
+      "audience": "General public",
+      "end": null,
+      "id": "87cfa173a4d0795a"
+    },
+    {
+      "name": "Women's Lacrosse vs. NCAA DIII Second Round",
+      "start": "2026-05-10T14:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=wlax",
+      "source": "MIT Events",
+      "description": "Time: 1:00 PM Location: Cambridge, MA",
+      "audience": "General public",
+      "end": null,
+      "id": "94f350ff680ae808"
+    },
+    {
+      "name": "XtalPi AI for Science Fellowship Symposium",
+      "start": "2026-05-11T10:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://chemistry.mit.edu/support-chemistry/xtalpi-ai-for-science-fellowships/",
+      "source": "MIT Events",
+      "description": "Please join us for a virtual symposium featuring our XtalPi AI for Science Fellows: Peter Miedaner Peter Miedaner, 2025–2026 XtalPi AI for Science Fellow “Bridging Machine Learning and Nonlinear Optics with Equivariant Neutral Networks” Anh Nguyen Anh Nguyen, 2025–2026 XtalPi AI for Science Fellow “Computational Elucidation of Abiotic Activity in Metalloenzymes” Jihye Roh Jihye Roh 2025–2026 XtalPi AI for Science Fellow “Hierarchical Framework for Computer-Aided Retrosynthesis” Nate Somers Nate Somers, 2025–2026 XtalPi AI for Science Fellow “Engineering Conformational Ensembles to Control Molecular Properties”",
+      "audience": "General public",
+      "end": "2026-05-11T11:00:00-04:00",
+      "id": "406bf10b89b6e5a0"
+    },
+    {
+      "name": "Fulbright Spain Webinar",
+      "start": "2026-05-12T12:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/fulbright-spain-webinar",
+      "source": "MIT Events",
+      "description": "Interested in doing research in Spain through the Fulbright U.S. Student Program? Join us for a webinar with members of the Fulbright Spain Commission and an MIT alumna currently on a Fulbright in the country. You’ll learn about Spanish research centers and universities with specialties across many fields and gain insight into what Spain is looking for in its Fulbright applicants. The Fulbright US Student Program is open to students and recent alumni who are US citizens and will not have a PhD by October 6, 2026. We can also discuss the Fulbright Spain Postdoctoral Award and Fulbright Scholar research…",
+      "audience": "Researchers / academic",
+      "end": "2026-05-12T13:00:00-04:00",
+      "id": "016e22ce498a59c0"
+    },
+    {
+      "name": "Food for Thought: MIT Libraries Study Break",
+      "start": "2026-05-12T14:30:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/food-for-thought",
+      "source": "MIT Events",
+      "description": "Join the MIT Libraries for a study break May 12 and 13. Have a snack, leave some kind words on our Wall of Encouragement, and grab a self-care gift bag (one per person, while supplies last). No registration necessary. , 2:30-4pm Rotch Library (7-238)Dewey Library (E53-100) , 2:30-4pm Hayden Library (14S-100)",
+      "audience": "General public",
+      "end": "2026-05-12T16:00:00-04:00",
+      "id": "89c9dd4201fb2545"
+    },
+    {
+      "name": "Fiber Crafts Group",
+      "start": "2026-05-13T12:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "wl.mit.edu",
+      "source": "MIT Events",
+      "description": "It's a good time to get creative and finish that project! The Fiber Crafts Group offers the space to craft online with friends. Meetings will be held via Zoom. Feel free to sign in at any time over the session, and stay for as long as you like. For a Zoom invite, please email Olimpia Caceres-Brown (olimpia@mit.edu)",
+      "audience": "General public",
+      "end": "2026-05-13T13:00:00-04:00",
+      "id": "e2c334e05e1a6823"
+    },
+    {
+      "name": "Fulbright: Preparing for the MIT Internal Deadline",
+      "start": "2026-05-13T15:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/fulbright-preparing-for-the-mit-internal-deadline",
+      "source": "MIT Events",
+      "description": "Interested in applying to Fulbright? Learn what you need to do this summer to prepare for MIT’s internal deadline in August. MIT’s Fulbright Program Advisor, Julia Mongo, will explain the process and the requirements and answer your questions. (If you did not previously attend one of our Fulbright Information Sessions, email jmongo@mit.edu, and Julia will send you a copy of the video and slides.) Fulbright U.S. Student Program applicants must be US citizens who will have completed at least a BS degree by the grant start date in fall 2027 / spring 2028. This event is open to undergraduates (current…",
+      "audience": "Seniors 55+",
+      "end": "2026-05-13T16:00:00-04:00",
+      "id": "caf169192f288646"
+    },
+    {
+      "name": "The Lumpen and the Miscreant: Mary Walling Blackburn presents Cream Psychosis, in conversation with David Levine",
+      "start": "2026-05-14T18:00:00-04:00",
+      "location": "Carpenter Center for the Visual Arts, Theater, Lower Level 24 Quincy St, Cambridge, MA 02138",
+      "url": "https://listart.mit.edu/calendar/lumpen-miscreant-mary-walling-blackburn-presents-cream-psychosis-conversation-david-levine",
+      "source": "MIT Events",
+      "description": "“When an empire is lurching to a halt at its very end, it might be the moment when it begins, or is forced, to re-imagine its relationship to a national insanity.” —Mary Walling Blackburn “XOXO, Insanity, Institution” (2011) The Carpenter Center for the Visual Arts and MIT List Visual Arts Center co-present a reading of Cream Psychosis (Sternberg Press, e-flux Journal, 2026), a collection of essays spanning the 2010s to the present by artist and writer Mary Walling Blackburn, followed by a conversation between Walling Blackburn and artist and writer David Levine. Moving with near psychedelic precision across American time…",
+      "audience": "Kids 6-12",
+      "end": "2026-05-14T19:30:00-04:00",
+      "id": "a335159277a6bff9"
+    },
+    {
       "name": "Hinge Quartet in Concert",
       "start": "2026-05-15T00:00:00+00:00",
       "location": "First Parish in Brookline",
@@ -45,6 +276,50 @@
       "audience": "Adults",
       "end": null,
       "id": "4ea1979b64c073fe"
+    },
+    {
+      "name": "Wargaming 4 All",
+      "start": "2026-05-15T00:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/wargaming-4-all-2026",
+      "source": "MIT Events",
+      "description": "Description: Build and train AI agents to compete in an e-sports–style video game that simulates a realistic and complex military operation. Participants use a game simulation and a reinforcement-learning environment to develop their own agents and compete head-to-head. The top teams are eligible for a cash prize and their agents will face Air Force pilots in a final exhibition. Registration on the website is mandatory. Website: https://war.game Areas of tangential interest: reinforcement learning and AI training, multi-agent systems, human machine teaming, modeling and simulation Course timeline: Course timeline: Now: teams form, register on the website, build and train their AI…",
+      "audience": "Adults",
+      "end": null,
+      "id": "933e111073e89c8c"
+    },
+    {
+      "name": "Women's Openweight Crew vs. Patriot League Rowing Championships",
+      "start": "2026-05-15T01:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=wcrew",
+      "source": "MIT Events",
+      "description": "Time: TBA Location: Cherry Hill, NJ / Cooper River",
+      "audience": "General public",
+      "end": null,
+      "id": "db5af1b16d898125"
+    },
+    {
+      "name": "Graduate Program in Science Writing Thesis Day 2026",
+      "start": "2026-05-15T10:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://calendar.mit.edu/event/graduate-program-in-science-writing-thesis-day-2026",
+      "source": "MIT Events",
+      "description": "Presentations will begin at 10am on Zoom. Featuring presentations from the ’",
+      "audience": "General public",
+      "end": null,
+      "id": "482bce50525fed58"
+    },
+    {
+      "name": "Sailing vs. Women's Fleet Race National Championship",
+      "start": "2026-05-15T11:00:00-04:00",
+      "location": "MIT, Cambridge, MA",
+      "url": "https://mitathletics.com/schedule.aspx?path=sail",
+      "source": "MIT Events",
+      "description": "Time: 10:00 AM Location: Tampa, FL",
+      "audience": "General public",
+      "end": null,
+      "id": "3355e800fc852d5d"
     },
     {
       "name": "Artist Talk with Rania Matar",
