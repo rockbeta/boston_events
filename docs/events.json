@@ -1,73 +1,7 @@
 {
-  "generated_at": "2026-05-07T14:49:44.048521+00:00",
-  "count": 32,
+  "generated_at": "2026-05-08T02:38:55.789345+00:00",
+  "count": 26,
   "events": [
-    {
-      "name": "Carroll Center for the Blind: Waltham Lions Carnival",
-      "start": "2026-05-07T00:00:00+00:00",
-      "location": "103 CityPoint, 300 Fifth Avenue, Waltham, MA 02451",
-      "url": "https://www.mass.gov/event/carroll-center-for-the-blind-waltham-lions-carnival-05-07-2026",
-      "source": "Mass.gov",
-      "description": "Join us for a special afternoon at the Waltham Lions Carnival, reserved exclusively for children with vision, learning, and sensory needs and their families. Enjoy rides, fun activities, and time to connect with fellow Carroll Center families. RSVP before May 1 by emailing Barbara Duffy at barbara.duffy@c​arroll.org",
-      "audience": "Kids 6-12",
-      "end": null,
-      "id": "92347daedbe221c6"
-    },
-    {
-      "name": "Latino Professional Mixer 2026",
-      "start": "2026-05-07T00:00:00+00:00",
-      "location": "Courtyard by Marriott Boston Downtown",
-      "url": "https://www.eventbrite.com/e/latino-professional-mixer-2026-tickets-1981877024531",
-      "source": "Eventbrite",
-      "description": "This networking event gathers more than 300 prominent leaders from the private and public sector",
-      "audience": "Job seekers",
-      "end": null,
-      "id": "3e5228b2a6026c7f"
-    },
-    {
-      "name": "Jazz Night @ Long Live Roxbury",
-      "start": "2026-05-07T00:00:00+00:00",
-      "location": "Long Live Roxbury, Hampden Street, Boston, MA, USA",
-      "url": "https://www.eventbrite.com/e/jazz-night-long-live-roxbury-tickets-1975993585005",
-      "source": "Eventbrite",
-      "description": "Join us for Thursday Jazz Nights! Every Thursday as we celebrate Boston’s vibrant music scene!",
-      "audience": "General public",
-      "end": null,
-      "id": "4195439359a89c00"
-    },
-    {
-      "name": "Spring into Writing with Writing Together Online (Challenge 2)",
-      "start": "2026-05-07T09:00:00-04:00",
-      "location": "MIT, Cambridge, MA",
-      "url": "https://calendar.mit.edu/event/copy-of-build-up-healthy-writing-habits-with-writing-together-online-challenge-1-2002",
-      "source": "MIT Events",
-      "description": "Writing Together Online offers structured time to help you spring into writing and stay focused this semester. We hold writing sessions every weekday, Monday through Friday. Join our daily writing sessions and become part of a community of scholars who connect online, set realistic goals, and write together in the spirit of accountability and camaraderie. The program is open to all MIT students, postdocs, faculty, staff, and affiliates who are working on papers, proposals, thesis/dissertation chapters, application materials, and other writing projects. Please register for any number of sessions: Mondays, Wednesdays, and Fridays, 9:00–10:30am Tuesdays and Thursdays 9:00-10:00am and 10:00-11:00am…",
-      "audience": "General public",
-      "end": "2026-05-07T10:00:00-04:00",
-      "id": "483a826685bf0544"
-    },
-    {
-      "name": "AHA Seminar Series: Krzysztof Gajos | Exploring the Design Space of Success Criteria for AI-powered Decision Support Technologies",
-      "start": "2026-05-07T16:00:00-04:00",
-      "location": "MIT, Cambridge, MA",
-      "url": "https://www.media.mit.edu/events/aha-seminar-krzysztof-gajos/",
-      "source": "MIT Events",
-      "description": "Join us for our online seminar series event hosted by MIT Media Lab's Advancing Humans with AI (AHA) research program. This event features Krzysztof Gajos, the Yahn W. Bernier and N. Elizabeth McCaw professor of Computer Science at the Harvard Paulson School of Engineering and Applied Sciences. Talks are all recorded and made available afterwards on YouTube, linked on each event webpage. Abstract For most of my career (working at the intersection of HCI and AI), I declared success when the systems I helped build allowed people to do more, faster, with fewer errors and with less friction. Recently, however…",
-      "audience": "Job seekers",
-      "end": "2026-05-07T17:00:00-04:00",
-      "id": "a70c55d6ab4a66c9"
-    },
-    {
-      "name": "Graduate Student Talk: Léa Miranda",
-      "start": "2026-05-07T17:30:00-04:00",
-      "location": "MIT List Visual Arts Center, 20 Ames Street, Building E15, Cambridge, MA 02139",
-      "url": "https://listart.mit.edu/calendar/graduate-student-talk-lea-miranda",
-      "source": "MIT Events",
-      "description": "Join Léa Miranda, a PhD student in the MIT History, Theory + Criticism of Art and Architecture program for a conversation around Performing Conditions: Artistic Labor and Dependency as Form. In this talk, Léa Miranda will discuss the relationships between property, labor, capital, and artistic production which have long influenced the history of art, through the specific example of photography. She will engage with Sophia Giovannitti's work on contractual structures to explore possible ways in which the commodifying regime of visual experiences can be broken down. In light of this, she will discuss how we—artists, patrons, historians, and viewers—can negotiate…",
-      "audience": "Teens 13-17",
-      "end": "2026-05-07T18:00:00-04:00",
-      "id": "a8294a5b4eeec38d"
-    },
     {
       "name": "Men's Heavyweight Crew vs. Jefferson Dad Vail Regatta",
       "start": "2026-05-08T01:00:00-04:00",
@@ -190,6 +124,17 @@
       "id": "87cfa173a4d0795a"
     },
     {
+      "name": "Brew-N-Laughs",
+      "start": "2026-05-10T00:00:00+00:00",
+      "location": "Castle Island Brewing - South Boston",
+      "url": "https://www.eventbrite.com/e/brew-n-laughs-tickets-1988511819381",
+      "source": "Eventbrite",
+      "description": "Free Open Mic Comedy Show Hosted Every Other Monday",
+      "audience": "General public",
+      "end": null,
+      "id": "28cbba313c0027c7"
+    },
+    {
       "name": "Women's Lacrosse vs. NCAA DIII Second Round",
       "start": "2026-05-10T14:00:00-04:00",
       "location": "MIT, Cambridge, MA",
@@ -256,6 +201,17 @@
       "id": "caf169192f288646"
     },
     {
+      "name": "Jazz Night @ Long Live Roxbury",
+      "start": "2026-05-14T00:00:00+00:00",
+      "location": "Long Live Roxbury, Hampden Street, Boston, MA, USA",
+      "url": "https://www.eventbrite.com/e/jazz-night-long-live-roxbury-tickets-1975993586008",
+      "source": "Eventbrite",
+      "description": "Join us for Thursday Jazz Nights! Every Thursday as we celebrate Boston’s vibrant music scene!",
+      "audience": "General public",
+      "end": null,
+      "id": "ab69b28ec628a751"
+    },
+    {
       "name": "The Lumpen and the Miscreant: Mary Walling Blackburn presents Cream Psychosis, in conversation with David Levine",
       "start": "2026-05-14T18:00:00-04:00",
       "location": "Carpenter Center for the Visual Arts, Theater, Lower Level 24 Quincy St, Cambridge, MA 02138",
@@ -298,28 +254,6 @@
       "audience": "General public",
       "end": null,
       "id": "db5af1b16d898125"
-    },
-    {
-      "name": "Graduate Program in Science Writing Thesis Day 2026",
-      "start": "2026-05-15T10:00:00-04:00",
-      "location": "MIT, Cambridge, MA",
-      "url": "https://calendar.mit.edu/event/graduate-program-in-science-writing-thesis-day-2026",
-      "source": "MIT Events",
-      "description": "Presentations will begin at 10am on Zoom. Featuring presentations from the ’",
-      "audience": "General public",
-      "end": null,
-      "id": "482bce50525fed58"
-    },
-    {
-      "name": "Sailing vs. Women's Fleet Race National Championship",
-      "start": "2026-05-15T11:00:00-04:00",
-      "location": "MIT, Cambridge, MA",
-      "url": "https://mitathletics.com/schedule.aspx?path=sail",
-      "source": "MIT Events",
-      "description": "Time: 10:00 AM Location: Tampa, FL",
-      "audience": "General public",
-      "end": null,
-      "id": "3355e800fc852d5d"
     },
     {
       "name": "Artist Talk with Rania Matar",
