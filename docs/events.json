@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T02:47:47.428006+00:00",
+  "generated_at": "2026-05-08T03:09:21.611514+00:00",
   "count": 30,
   "events": [
     {
@@ -11,7 +11,9 @@
       "description": "See source for details on “Gallery Performance: Celtic Art Across the Ages”.",
       "audience": "General public",
       "end": null,
-      "id": "c2bd0d8ba3260fc4"
+      "id": "c2bd0d8ba3260fc4",
+      "lat": 42.377,
+      "lon": -71.1167
     },
     {
       "name": "Making Waves: Books on Angling and Fish at Houghton Library",
@@ -22,7 +24,9 @@
       "description": "See source for details on “Making Waves: Books on Angling and Fish at Houghton Library”.",
       "audience": "General public",
       "end": null,
-      "id": "4d0c0c370fe25152"
+      "id": "4d0c0c370fe25152",
+      "lat": 42.377,
+      "lon": -71.1167
     },
     {
       "name": "A More Perfect Union: The Birth of the Constitution",
@@ -33,7 +37,9 @@
       "description": "See source for details on “A More Perfect Union: The Birth of the Constitution”.",
       "audience": "General public",
       "end": null,
-      "id": "a610816ab6d385e9"
+      "id": "a610816ab6d385e9",
+      "lat": 42.377,
+      "lon": -71.1167
     },
     {
       "name": "Men's Heavyweight Crew vs. Jefferson Dad Vail Regatta",
@@ -44,7 +50,9 @@
       "description": "Time: TBA Location: Pennsauken, NJ / Cooper River",
       "audience": "General public",
       "end": null,
-      "id": "7526ca64bc7d991b"
+      "id": "7526ca64bc7d991b",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Men's Tennis vs. NCAA DIII First Round",
@@ -55,7 +63,9 @@
       "description": "Time: TBA Location: TBA",
       "audience": "General public",
       "end": null,
-      "id": "c1be8a0dc55cb64a"
+      "id": "c1be8a0dc55cb64a",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Men's Track and Field vs. Williams F.I.R.E",
@@ -66,7 +76,9 @@
       "description": "Time: Location: Williamstown, MA / Williams College",
       "audience": "General public",
       "end": null,
-      "id": "d498f6652ab39abd"
+      "id": "d498f6652ab39abd",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Women's Lightweight Crew vs. Jefferson Dad Vail Regatta",
@@ -77,7 +89,9 @@
       "description": "Time: TBA Location: Pennsauken, NJ / Cooper River",
       "audience": "General public",
       "end": null,
-      "id": "4aa65ffbe75e9fc4"
+      "id": "4aa65ffbe75e9fc4",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Women's Track and Field vs. Williams F.I.R.E.",
@@ -88,7 +102,9 @@
       "description": "Time: Location: Williamstown, MA / Williams College",
       "audience": "General public",
       "end": null,
-      "id": "a609bf05689ac841"
+      "id": "a609bf05689ac841",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "10th MIT Global Humanities Forum on “Rethinking healing—from ancient wisdom to modern medicine” on May 8 (online)",
@@ -99,7 +115,9 @@
       "description": "Dear colleagues, students, and friends, Join us for the 2026 GHI 10th Forum! This session introduces the GHI Pillar Medicine & the Healing Arts, and its projects. 10th GHI Forum Title: Rethinking healing—from ancient wisdom to modern medicineDate: May 8, 2026, 10:00–11:30 AM ESTWhere: Online (Zoom Registration Link: LINK)Speakers: Ronit Yoeli-Tlalim, Michael Stanley-Baker, Joaquín Terrones 【Abstract】 What can history teach us about the big challenges faced by medicine in the world today? Our pillar is tapping into historically rooted medical knowledge as resources for new directions for enhancing both medical practice and public understanding of health and well-being. We examine…",
       "audience": "General public",
       "end": "2026-05-08T11:30:00-04:00",
-      "id": "ea208be659891924"
+      "id": "ea208be659891924",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "MIT Mobility Forum",
@@ -110,7 +128,9 @@
       "description": "See source for details on “MIT Mobility Forum”.",
       "audience": "General public",
       "end": "2026-05-08T13:00:00-04:00",
-      "id": "892c23e9300d07b4"
+      "id": "892c23e9300d07b4",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Baseball vs. NCAA DIII Super Regionals",
@@ -121,7 +141,9 @@
       "description": "Time: TBA Location: TBA",
       "audience": "General public",
       "end": null,
-      "id": "450faad59622df30"
+      "id": "450faad59622df30",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Softball vs. Worcester Polytechnic Institute",
@@ -132,7 +154,9 @@
       "description": "Time: 4:00 PM Location: Worcester, MA",
       "audience": "General public",
       "end": null,
-      "id": "b672c4d94d032139"
+      "id": "b672c4d94d032139",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Valerie and Her Week of Wonders",
@@ -143,7 +167,9 @@
       "description": "See source for details on “Valerie and Her Week of Wonders”.",
       "audience": "General public",
       "end": null,
-      "id": "97171c8595f23a91"
+      "id": "97171c8595f23a91",
+      "lat": 42.377,
+      "lon": -71.1167
     },
     {
       "name": "Men's Lacrosse vs. Babson College",
@@ -154,7 +180,9 @@
       "description": "Time: 1:00 PM Location: Babson Park, MA",
       "audience": "General public",
       "end": null,
-      "id": "b385e352923c5260"
+      "id": "b385e352923c5260",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Women's Tennis vs. NCAA DIII Second Round",
@@ -165,7 +193,9 @@
       "description": "Time: 12:00 PM (10:00 AM if indoors) Location: Cambridge, MA",
       "audience": "General public",
       "end": null,
-      "id": "87cfa173a4d0795a"
+      "id": "87cfa173a4d0795a",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Brew-N-Laughs",
@@ -187,7 +217,9 @@
       "description": "Time: 1:00 PM Location: Cambridge, MA",
       "audience": "General public",
       "end": null,
-      "id": "94f350ff680ae808"
+      "id": "94f350ff680ae808",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "XtalPi AI for Science Fellowship Symposium",
@@ -198,7 +230,9 @@
       "description": "Please join us for a virtual symposium featuring our XtalPi AI for Science Fellows: Peter Miedaner Peter Miedaner, 2025–2026 XtalPi AI for Science Fellow “Bridging Machine Learning and Nonlinear Optics with Equivariant Neutral Networks” Anh Nguyen Anh Nguyen, 2025–2026 XtalPi AI for Science Fellow “Computational Elucidation of Abiotic Activity in Metalloenzymes” Jihye Roh Jihye Roh 2025–2026 XtalPi AI for Science Fellow “Hierarchical Framework for Computer-Aided Retrosynthesis” Nate Somers Nate Somers, 2025–2026 XtalPi AI for Science Fellow “Engineering Conformational Ensembles to Control Molecular Properties”",
       "audience": "General public",
       "end": "2026-05-11T11:00:00-04:00",
-      "id": "406bf10b89b6e5a0"
+      "id": "406bf10b89b6e5a0",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Fulbright Spain Webinar",
@@ -209,7 +243,9 @@
       "description": "Interested in doing research in Spain through the Fulbright U.S. Student Program? Join us for a webinar with members of the Fulbright Spain Commission and an MIT alumna currently on a Fulbright in the country. You’ll learn about Spanish research centers and universities with specialties across many fields and gain insight into what Spain is looking for in its Fulbright applicants. The Fulbright US Student Program is open to students and recent alumni who are US citizens and will not have a PhD by October 6, 2026. We can also discuss the Fulbright Spain Postdoctoral Award and Fulbright Scholar research…",
       "audience": "Researchers / academic",
       "end": "2026-05-12T13:00:00-04:00",
-      "id": "016e22ce498a59c0"
+      "id": "016e22ce498a59c0",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Food for Thought: MIT Libraries Study Break",
@@ -220,7 +256,9 @@
       "description": "Join the MIT Libraries for a study break May 12 and 13. Have a snack, leave some kind words on our Wall of Encouragement, and grab a self-care gift bag (one per person, while supplies last). No registration necessary. , 2:30-4pm Rotch Library (7-238)Dewey Library (E53-100) , 2:30-4pm Hayden Library (14S-100)",
       "audience": "General public",
       "end": "2026-05-12T16:00:00-04:00",
-      "id": "89c9dd4201fb2545"
+      "id": "89c9dd4201fb2545",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Fiber Crafts Group",
@@ -231,7 +269,9 @@
       "description": "It's a good time to get creative and finish that project! The Fiber Crafts Group offers the space to craft online with friends. Meetings will be held via Zoom. Feel free to sign in at any time over the session, and stay for as long as you like. For a Zoom invite, please email Olimpia Caceres-Brown (olimpia@mit.edu)",
       "audience": "General public",
       "end": "2026-05-13T13:00:00-04:00",
-      "id": "e2c334e05e1a6823"
+      "id": "e2c334e05e1a6823",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Fulbright: Preparing for the MIT Internal Deadline",
@@ -242,7 +282,9 @@
       "description": "Interested in applying to Fulbright? Learn what you need to do this summer to prepare for MIT’s internal deadline in August. MIT’s Fulbright Program Advisor, Julia Mongo, will explain the process and the requirements and answer your questions. (If you did not previously attend one of our Fulbright Information Sessions, email jmongo@mit.edu, and Julia will send you a copy of the video and slides.) Fulbright U.S. Student Program applicants must be US citizens who will have completed at least a BS degree by the grant start date in fall 2027 / spring 2028. This event is open to undergraduates (current…",
       "audience": "Seniors 55+",
       "end": "2026-05-13T16:00:00-04:00",
-      "id": "caf169192f288646"
+      "id": "caf169192f288646",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Jazz Night @ Long Live Roxbury",
@@ -275,7 +317,9 @@
       "description": "Music by Björk, Elliott Miles McKinley, Lansing McLoskey, Lucy McKnight, and Laura Schwendinger",
       "audience": "Adults",
       "end": null,
-      "id": "4ea1979b64c073fe"
+      "id": "4ea1979b64c073fe",
+      "lat": 42.3271453,
+      "lon": -71.1306551
     },
     {
       "name": "Wargaming 4 All",
@@ -286,7 +330,9 @@
       "description": "Description: Build and train AI agents to compete in an e-sports–style video game that simulates a realistic and complex military operation. Participants use a game simulation and a reinforcement-learning environment to develop their own agents and compete head-to-head. The top teams are eligible for a cash prize and their agents will face Air Force pilots in a final exhibition. Registration on the website is mandatory. Website: https://war.game Areas of tangential interest: reinforcement learning and AI training, multi-agent systems, human machine teaming, modeling and simulation Course timeline: Course timeline: Now: teams form, register on the website, build and train their AI…",
       "audience": "Adults",
       "end": null,
-      "id": "933e111073e89c8c"
+      "id": "933e111073e89c8c",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Women's Openweight Crew vs. Patriot League Rowing Championships",
@@ -297,7 +343,9 @@
       "description": "Time: TBA Location: Cherry Hill, NJ / Cooper River",
       "audience": "General public",
       "end": null,
-      "id": "db5af1b16d898125"
+      "id": "db5af1b16d898125",
+      "lat": 42.3601,
+      "lon": -71.0942
     },
     {
       "name": "Artist Talk with Rania Matar",
@@ -308,7 +356,9 @@
       "description": "Join us for a conversation with Rania Matar about her project and new exhibition Where Do I Go? لوين روح",
       "audience": "Adults",
       "end": null,
-      "id": "18f39f42e313b84f"
+      "id": "18f39f42e313b84f",
+      "lat": 42.3504621,
+      "lon": -71.0698114
     },
     {
       "name": "Carroll Center for the Blind: Information Day",

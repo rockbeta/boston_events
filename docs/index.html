@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Free Events in Greater Boston</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
 <style>
   :root {
     --bg: #fafaf7;
@@ -38,6 +46,23 @@
   header { padding: 36px 0 12px; border-bottom: 1px solid var(--border); }
   h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.02em; }
   .subtitle { color: var(--muted); margin: 0 0 16px; }
+
+  /* Map */
+  #map {
+    height: 380px; width: 100%;
+    border: 1px solid var(--border); border-radius: 12px;
+    margin: 16px 0 4px;
+    z-index: 1;                  /* sits below the sticky filter bar */
+  }
+  @media (max-width: 700px) { #map { height: 280px; } }
+  .map-meta {
+    color: var(--muted); font-size: 13px; margin-bottom: 8px;
+  }
+  /* Leaflet popup tweaks */
+  .leaflet-popup-content { font-size: 13px; line-height: 1.4; margin: 10px 12px; }
+  .leaflet-popup-content strong { display: block; margin-bottom: 2px; }
+  .leaflet-popup-content a { color: var(--accent); }
+
   .controls {
     display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
     padding: 16px 0; position: sticky; top: 0; background: var(--bg);
@@ -58,12 +83,13 @@
     background: var(--card); border: 1px solid var(--border);
     border-radius: 12px; padding: 18px;
     display: flex; flex-direction: column; gap: 10px;
-    transition: transform .12s ease, box-shadow .12s ease;
+    transition: transform .12s ease, box-shadow .12s ease, outline-color .25s ease;
+    outline: 2px solid transparent; outline-offset: 2px;
+    scroll-margin-top: 80px;     /* keep card visible below sticky filters */
   }
   .card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
-  .card h3 {
-    margin: 0; font-size: 17px; line-height: 1.3;
-  }
+  .card.flash { outline-color: var(--accent); }
+  .card h3 { margin: 0; font-size: 17px; line-height: 1.3; }
   .card h3 a { color: var(--ink); text-decoration: none; }
   .card h3 a:hover { color: var(--accent); }
   .meta { font-size: 13px; color: var(--muted); }
@@ -83,8 +109,11 @@
 <body>
 <header>
   <h1>Free Events in Greater Boston</h1>
-  <p class="subtitle">Aggregated from MIT, Harvard, BPL, MFA, Boston.gov, Mass.gov, Eventbrite. Updated whenever the script runs.</p>
+  <p class="subtitle">Aggregated from MIT, BU, Harvard, Mass.gov, Boston.gov, Eventbrite. Updated whenever the script runs.</p>
 </header>
+
+<div id="map"></div>
+<div class="map-meta" id="mapMeta">Loading map…</div>
 
 <div class="controls">
   <input id="q" type="search" placeholder="Search events, venues, topics…">
@@ -103,7 +132,8 @@
 
 <footer>
   <span id="updated">Loading data…</span> ·
-  <a href="https://github.com/rockbeta/boston_events" target="_blank" rel="noopener">source on GitHub</a>
+  <a href="https://github.com/rockbeta/boston_events" target="_blank" rel="noopener">source on GitHub</a> ·
+  Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors
 </footer>
 
 <script>
@@ -115,7 +145,7 @@ const fmt = new Intl.DateTimeFormat("en-US", {
 function uniq(arr) { return [...new Set(arr.filter(Boolean))].sort(); }
 
 function isThisWeekend(date) {
-  const d = date.getDay();          // 0 Sun ... 6 Sat
+  const d = date.getDay();
   const now = new Date();
   const diffDays = Math.floor((date - now) / 86400000);
   return diffDays >= 0 && diffDays < 8 && (d === 5 || d === 6 || d === 0);
@@ -130,6 +160,58 @@ function isWithin7(date) {
 }
 
 let allEvents = [];
+let map = null;
+let markerLayer = null;
+let markersById = {};
+
+function initMap() {
+  if (typeof L === "undefined") return;             // Leaflet not loaded yet
+  if (map) return;
+  map = L.map("map", { scrollWheelZoom: false }).setView([42.3601, -71.0589], 12);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors",
+  }).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+}
+
+function flashCard(id) {
+  const card = document.querySelector(`[data-event-id="${id}"]`);
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("flash");
+  setTimeout(() => card.classList.remove("flash"), 1600);
+}
+
+function renderMarkers(filtered) {
+  if (!map || !markerLayer) return;
+  markerLayer.clearLayers();
+  markersById = {};
+  const points = [];
+  for (const e of filtered) {
+    if (typeof e.lat !== "number" || typeof e.lon !== "number") continue;
+    const m = L.marker([e.lat, e.lon]);
+    const d = new Date(e.start);
+    const when = isNaN(d) ? e.start : fmt.format(d);
+    m.bindPopup(
+      `<strong>${escapeHtml(e.name)}</strong>` +
+      `<div>${escapeHtml(when)}</div>` +
+      `<div>${escapeHtml(e.location)}</div>` +
+      `<a href="${e.url}" target="_blank" rel="noopener">Source ↗</a>`
+    );
+    m.on("click", () => flashCard(e.id));
+    m.addTo(markerLayer);
+    markersById[e.id] = m;
+    points.push([e.lat, e.lon]);
+  }
+  const meta = document.getElementById("mapMeta");
+  if (points.length) {
+    map.fitBounds(points, { padding: [30, 30], maxZoom: 14 });
+    meta.textContent = `${points.length} of ${filtered.length} event${filtered.length === 1 ? "" : "s"} placed on the map`;
+  } else {
+    meta.textContent = "No mappable events match the current filters.";
+  }
+}
 
 function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
@@ -159,27 +241,29 @@ function render() {
   const grid = document.getElementById("grid");
   if (!filtered.length) {
     grid.innerHTML = `<div class="empty">No events match those filters.</div>`;
-    return;
+  } else {
+    grid.innerHTML = filtered.map(e => {
+      const d = new Date(e.start);
+      const when = isNaN(d) ? e.start : fmt.format(d);
+      return `
+        <article class="card" data-event-id="${escapeHtml(e.id)}">
+          <div class="meta">${when}</div>
+          <h3><a href="${e.url}" target="_blank" rel="noopener">${escapeHtml(e.name)}</a></h3>
+          <div class="meta">📍 ${escapeHtml(e.location)}</div>
+          <div class="desc">${escapeHtml(e.description || "")}</div>
+          <div class="chips">
+            <span class="chip audience">${escapeHtml(e.audience || "All ages")}</span>
+            <span class="chip">${escapeHtml(e.source)}</span>
+          </div>
+        </article>`;
+    }).join("");
   }
-  grid.innerHTML = filtered.map(e => {
-    const d = new Date(e.start);
-    const when = isNaN(d) ? e.start : fmt.format(d);
-    return `
-      <article class="card">
-        <div class="meta">${when}</div>
-        <h3><a href="${e.url}" target="_blank" rel="noopener">${escapeHtml(e.name)}</a></h3>
-        <div class="meta">📍 ${escapeHtml(e.location)}</div>
-        <div class="desc">${escapeHtml(e.description || "")}</div>
-        <div class="chips">
-          <span class="chip audience">${escapeHtml(e.audience || "All ages")}</span>
-          <span class="chip">${escapeHtml(e.source)}</span>
-        </div>
-      </article>`;
-  }).join("");
+
+  renderMarkers(filtered);
 }
 
 function escapeHtml(s) {
-  return (s || "").replace(/[&<>"']/g, c => ({
+  return (s == null ? "" : String(s)).replace(/[&<>"']/g, c => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   }[c]));
 }
@@ -210,13 +294,21 @@ async function load() {
        Run <code>python update_events.py</code> to generate it.</div>`;
     document.getElementById("stats").textContent = "";
     document.getElementById("updated").textContent = "";
+    document.getElementById("mapMeta").textContent = "";
   }
 }
 
 ["q", "audience", "source", "when"].forEach(id =>
   document.getElementById(id).addEventListener("input", render)
 );
-load();
+
+// Leaflet loads with `defer`; bring up the map once the page is ready.
+window.addEventListener("DOMContentLoaded", () => {
+  // If Leaflet hasn't downloaded yet, wait for its `load` event.
+  const start = () => { initMap(); load(); };
+  if (typeof L !== "undefined") start();
+  else window.addEventListener("load", start, { once: true });
+});
 </script>
 </body>
 </html>
