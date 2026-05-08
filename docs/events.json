@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-05-08T02:38:55.789345+00:00",
-  "count": 26,
+  "generated_at": "2026-05-08T02:47:47.428006+00:00",
+  "count": 30,
   "events": [
+    {
+      "name": "Gallery Performance: Celtic Art Across the Ages",
+      "start": "2026-05-08T00:00:00+00:00",
+      "location": "Harvard University, Cambridge, MA",
+      "url": "https://bit.ly/4ugLGEO",
+      "source": "Harvard Gazette",
+      "description": "See source for details on “Gallery Performance: Celtic Art Across the Ages”.",
+      "audience": "General public",
+      "end": null,
+      "id": "c2bd0d8ba3260fc4"
+    },
+    {
+      "name": "Making Waves: Books on Angling and Fish at Houghton Library",
+      "start": "2026-05-08T00:00:00+00:00",
+      "location": "Harvard University, Cambridge, MA",
+      "url": "https://library.harvard.edu/exhibits/making-waves",
+      "source": "Harvard Gazette",
+      "description": "See source for details on “Making Waves: Books on Angling and Fish at Houghton Library”.",
+      "audience": "General public",
+      "end": null,
+      "id": "4d0c0c370fe25152"
+    },
+    {
+      "name": "A More Perfect Union: The Birth of the Constitution",
+      "start": "2026-05-08T00:00:00+00:00",
+      "location": "Harvard University, Cambridge, MA",
+      "url": "https://library.harvard.edu/exhibits/more-perfect-union",
+      "source": "Harvard Gazette",
+      "description": "See source for details on “A More Perfect Union: The Birth of the Constitution”.",
+      "audience": "General public",
+      "end": null,
+      "id": "a610816ab6d385e9"
+    },
     {
       "name": "Men's Heavyweight Crew vs. Jefferson Dad Vail Regatta",
       "start": "2026-05-08T01:00:00-04:00",
@@ -100,6 +133,17 @@
       "audience": "General public",
       "end": null,
       "id": "b672c4d94d032139"
+    },
+    {
+      "name": "Valerie and Her Week of Wonders",
+      "start": "2026-05-09T00:00:00+00:00",
+      "location": "Harvard University, Cambridge, MA",
+      "url": "https://harvardfilmarchive.org/calendar/valerie-and-her-week-of-wonders-2026-05",
+      "source": "Harvard Gazette",
+      "description": "See source for details on “Valerie and Her Week of Wonders”.",
+      "audience": "General public",
+      "end": null,
+      "id": "97171c8595f23a91"
     },
     {
       "name": "Men's Lacrosse vs. Babson College",
